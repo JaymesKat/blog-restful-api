@@ -19,21 +19,6 @@ Ensure that you have installed the following on your local machine;
 - `PHP 7.1.*`
 - `Composer, for application dependency management`, [installation instructions here](https://getcomposer.org/download/)
 
-## 
-
-## Requirements
-
-Ensure that you have installed the following on your local machine;
-- `PHP 5 or newer`
-- `Composer for application dependency management`, [installation instructions here](https://getcomposer.org/download/)
-
-## 
-
-## Requirements
-
-Ensure that you have installed the following on your local machine;
-- `PHP 5 or newer`
-- `Composer for application dependency management`, [installation instructions here](https://getcomposer.org/download/)
 
 ## Running the API
 
