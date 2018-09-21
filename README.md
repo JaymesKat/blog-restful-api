@@ -1,8 +1,31 @@
 ## Blog API
 
  This project demonstrates how to build a simple RESTful API using Laravel 5.7
- 
- This API returns a list of articles
+
+## Available end points
+
+- POST `/api/register` - Register a new user (required fields: `name`, `email`, `password`, `password_confirmation`)
+- POST `/api/login` - Login a user (required fields: `email`, `password`)
+- POST `/api/logout` - Logout a user
+- GET `/api/articles` - Returns a list of articles
+- GET `/api/articles/<id>` - Returns a single article
+- POST `/api/articles` - Add a new article (required fields: `title`, `body`)
+- PUT `/api/articles/<id>` - Edit an existing article (required fields: `title`, `body`)
+- DELETE `/api/articles/<id>` - Delete an article
+
+## Requirements
+
+Ensure that you have installed the following on your local machine;
+- `PHP 7.1.*`
+- `Composer, for application dependency management`, [installation instructions here](https://getcomposer.org/download/)
+
+## 
+
+## Requirements
+
+Ensure that you have installed the following on your local machine;
+- `PHP 5 or newer`
+- `Composer for application dependency management`, [installation instructions here](https://getcomposer.org/download/)
 
 ## 
 
@@ -38,6 +61,8 @@ Run the tests in the `tests/` directory by running;
 ```
 composer test
 ```
+
+Test the endpoint responses using an HTTP client e.g. curl, Postman
 
 ## Credit
 This project was built while following a tutorial available at [https://www.toptal.com/laravel/restful-laravel-api-tutorial](https://www.toptal.com/laravel/restful-laravel-api-tutorial)
