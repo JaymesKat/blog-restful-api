@@ -1,8 +1,8 @@
-## Blog API
+## Blog App
 
- This project demonstrates how to build a simple RESTful API using Laravel 5.7
+ This project demonstrates how to build a simple RESTful API backend with Laravel 5.7 and a frontend with React
 
-## Available end points
+## Available endpoints
 
 - POST `/api/register` - Register a new user (required fields: `name`, `email`, `password`, `password_confirmation`)
 - POST `/api/login` - Login a user (required fields: `email`, `password`)
@@ -46,8 +46,6 @@ Run the tests in the `tests/` directory by running;
 ```
 composer test
 ```
-
-Test the endpoint responses using an HTTP client e.g. curl, Postman
 
 ## Credit
 This project was built while following a tutorial available at [https://www.toptal.com/laravel/restful-laravel-api-tutorial](https://www.toptal.com/laravel/restful-laravel-api-tutorial)
