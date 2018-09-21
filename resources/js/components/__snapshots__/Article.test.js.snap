@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article should render correctly 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+      "margin": "30px 10px 10px 30px",
+    }
+  }
+>
+  <h2>
+    <strong>
+      Test Article
+    </strong>
+  </h2>
+  <p>
+     
+    Sample text
+     
+  </p>
+  <h5>
+     Post date : 
+    2018-09-20 09:30:01
+     
+  </h5>
+</div>
+`;
