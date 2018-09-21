@@ -4,6 +4,14 @@
  
  This API returns a list of articles
 
+## 
+
+## Requirements
+
+Ensure that you have installed the following on your local machine;
+- `PHP 5 or newer`
+- `Composer for application dependency management`, [installation instructions here](https://getcomposer.org/download/)
+
 ## Running the API
 
 It's very simple to get the API up and running. First, create the database (and database
@@ -23,6 +31,13 @@ Then install, migrate, seed, all that jazz:
 4. `php artisan serve`
 
 The API will be running on `localhost:8000`.
+
+## Testing the API
+
+Run the tests in the `tests/` directory by running;
+```
+composer test
+```
 
 ## Credit
 This project was built while following a tutorial available at [https://www.toptal.com/laravel/restful-laravel-api-tutorial](https://www.toptal.com/laravel/restful-laravel-api-tutorial)
